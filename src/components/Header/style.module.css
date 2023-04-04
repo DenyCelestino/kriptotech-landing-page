@@ -1,0 +1,128 @@
+.container {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  border-bottom: 1px solid var(--line);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  z-index: 1;
+  justify-content: space-between;
+  width: 100%;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  justify-content: space-around;
+}
+.logo_container {
+  height: 70px;
+  width: 100px;
+}
+.logo_container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.link_container {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 40px;
+}
+.button_container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.button_container button {
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button_container button:nth-child(1) {
+  background: transparent;
+  border: 1px solid var(--primary);
+}
+.button_container button:nth-child(1):hover {
+  background: var(--primary);
+  border: 1px solid white;
+}
+.button_container button:nth-child(2) {
+  background: var(--primary);
+}
+
+.wrapper_mobile {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+  top: 80px;
+  background-image: linear-gradient(
+    to right,
+    #000000,
+    #11040c,
+    #170a18,
+    #151125,
+    #051832
+  );
+  padding: 10px;
+  height: 100vh;
+  width: 80%;
+  align-items: center;
+}
+.link_container_mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  height: 80%;
+  max-height: 80%;
+
+  overflow-y: scroll;
+}
+.link_container_mobile li {
+  padding: 10px;
+  background-image: linear-gradient(
+    to right,
+    #051832,
+    #151125,
+    #170a18,
+    #11040c,
+    #000000
+  );
+  width: 90%;
+}
+
+.mobileCloseButtons {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    display: none;
+    flex-direction: column;
+  }
+  .container {
+    padding: 0 20px;
+  }
+  .button_container {
+    padding: 20px;
+    flex-direction: column;
+    width: 100%;
+  }
+  .button_container button {
+    width: 90%;
+  }
+  .wrapper_mobile {
+    display: flex;
+  }
+  .mobileCloseButtons {
+    display: flex;
+  }
+}
