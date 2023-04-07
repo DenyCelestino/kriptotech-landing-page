@@ -1,6 +1,14 @@
 .container {
   display: flex;
   padding: 10px;
+  background-image: linear-gradient(
+    to right,
+    #000000,
+    #0c0408,
+    #110913,
+    #120e1b,
+    #0e1423
+  );
 }
 .companies {
   display: flex;

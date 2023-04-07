@@ -27,7 +27,7 @@ const Hero = () => {
     <div className={styles.container}>
       {/* <ParticlesBg type="color" bg={true} /> */}
 
-      <div data-aos="fade-up-right" className={styles.wrapper}>
+      <div data-aos="fade-right" className={styles.wrapper}>
         <h1>
           Transformando a sociedade <br />
           por meio da tecnologia{' '}

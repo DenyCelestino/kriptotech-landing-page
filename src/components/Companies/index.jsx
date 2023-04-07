@@ -12,7 +12,7 @@ import Zoom from 'react-reveal/Zoom'
 const Companies = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.companies}>
+      <div data-aos="zoom-in-up" className={styles.companies}>
         {/* <div className={styles.companie_container}>
         <img src={Smartshop} />
         <h4>Smartshop</h4>
@@ -21,24 +21,23 @@ const Companies = () => {
         <img src={Einsrocket} />
         <h4>Smartshop</h4>
       </div> */}
-        <Zoom>
-          <div className={styles.companie_container}>
-            <img src={Google} />
-            <h4>Google</h4>
-          </div>
-          <div className={styles.companie_container}>
-            <img src={spotify} />
-            <h4>Spotify</h4>
-          </div>
-          <div className={styles.companie_container}>
-            <img src={ibm} />
-            <h4>IBM</h4>
-          </div>
-          <div className={styles.companie_container}>
-            <img src={rocketseat} />
-            <h4>Rocketseat</h4>
-          </div>
-        </Zoom>
+
+        <div className={styles.companie_container}>
+          <img src={Google} />
+          <h4>Google</h4>
+        </div>
+        <div className={styles.companie_container}>
+          <img src={spotify} />
+          <h4>Spotify</h4>
+        </div>
+        <div className={styles.companie_container}>
+          <img src={ibm} />
+          <h4>IBM</h4>
+        </div>
+        <div className={styles.companie_container}>
+          <img src={rocketseat} />
+          <h4>Rocketseat</h4>
+        </div>
 
         {/* <img src={Minutax} /> */}
       </div>
