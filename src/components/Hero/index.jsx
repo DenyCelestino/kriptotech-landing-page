@@ -5,7 +5,6 @@ import {
   AiFillInstagram,
   AiFillLinkedin
 } from 'react-icons/ai'
-import ParticlesBg from 'particles-bg'
 
 const Hero = () => {
   const [isScrolled, setScrolled] = useState(false)
@@ -25,8 +24,6 @@ const Hero = () => {
 
   return (
     <div className={styles.container}>
-      {/* <ParticlesBg type="color" bg={true} /> */}
-
       <div data-aos="fade-right" className={styles.wrapper}>
         <h1>
           Transformando a sociedade <br />

@@ -1,9 +1,12 @@
 import React from 'react'
 import styles from './style.module.css'
 import who_us from '../../assets/who.png'
+import ParticlesBg from 'particles-bg'
+
 const About = () => {
   return (
     <div className={styles.container}>
+      {/* <ParticlesBg type="color" bg={true} /> */}
       <div className={styles.wrapper}>
         <div data-aos="fade-up" className={styles.image_about}>
           <img src={who_us} />
