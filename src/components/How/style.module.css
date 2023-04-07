@@ -122,10 +122,11 @@
     height: 100%;
     background-image: linear-gradient(
       to bottom,
-      rgb(7, 35, 78, 0.2) #0a0307,
-      #0f0610,
-      #100b18,
-      #0c101f
+      #000000,
+      #070205,
+      #0b040c,
+      #0b0713,
+      #070b18
     );
   }
   .wrapper {
