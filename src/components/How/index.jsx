@@ -3,6 +3,12 @@ import styles from './style.module.css'
 import timetag from '../../assets/timetag.png'
 import qualitytag from '../../assets/qualitytag.png'
 import appexample from '../../assets/appexample.png'
+import handshaketag from '../../assets/handshaketag.png'
+import excellentag from '../../assets/excellentag.png'
+import dedicationtag from '../../assets/dedicationtag.png'
+import inovationtag from '../../assets/inovationtag.png'
+import eficientag from '../../assets/eficientag.png'
+import satisfytag from '../../assets/satisfytag.png'
 
 const How = () => {
   return (
@@ -51,7 +57,7 @@ const How = () => {
                   objetivos de negócios.
                 </p>
               </div>
-              <img src={timetag} />
+              <img src={handshaketag} />
             </div>
             <div data-aos="flip-down" className={styles.tags}>
               <div className={styles.tags_info}>
@@ -61,7 +67,7 @@ const How = () => {
                   desenvolvimento de software e aplicativos.
                 </p>
               </div>
-              <img src={timetag} />
+              <img src={excellentag} />
             </div>
           </div>
 
@@ -80,7 +86,7 @@ const How = () => {
                   personalizadas e sob medida para cada cliente.
                 </p>
               </div>
-              <img src={timetag} />
+              <img src={dedicationtag} />
             </div>
             <div data-aos="flip-down" className={styles.tags}>
               <div className={styles.tags_info}>
@@ -91,7 +97,7 @@ const How = () => {
                   mercados.
                 </p>
               </div>
-              <img src={timetag} />
+              <img src={inovationtag} />
             </div>
             <div data-aos="flip-down" className={styles.tags}>
               <div className={styles.tags_info}>
@@ -102,7 +108,7 @@ const How = () => {
                   produtividade de nossos clientes.
                 </p>
               </div>
-              <img src={timetag} />
+              <img src={eficientag} />
             </div>
             <div data-aos="flip-down" className={styles.tags}>
               <div className={styles.tags_info}>
@@ -113,7 +119,7 @@ const How = () => {
                   clientes.
                 </p>
               </div>
-              <img src={timetag} />
+              <img src={satisfytag} />
             </div>
           </div>
         </div>
