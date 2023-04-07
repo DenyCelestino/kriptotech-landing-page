@@ -60,8 +60,8 @@
   display: none;
   flex-direction: column;
   position: absolute;
-  right: 0;
-  top: 50px;
+  left: 0;
+  top: 0;
   background: #070b18;
   padding: 10px;
   height: 100vh;
