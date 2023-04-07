@@ -76,7 +76,7 @@ const Header = () => {
       )}
       {/* mobile nav */}
       {mobileNav && (
-        <Fade right>
+        <Fade left>
           <div className={styles.wrapper_mobile}>
             <ul className={styles.link_container_mobile}>
               <div className={styles.button_container}>
