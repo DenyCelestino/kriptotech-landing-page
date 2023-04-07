@@ -3,17 +3,17 @@
   padding: 10px;
   background-image: linear-gradient(
     to right,
-    #05081a,
-    #060a1d,
-    #070c20,
-    #070d23,
-    #070f26,
-    #070f26,
-    #070f26,
-    #070f26,
-    #070d23,
-    #070c20,
-    #060a1d,
+    #010209,
+    #02030a,
+    #03050b,
+    #04060b,
+    #05070c,
+    #05070e,
+    #05080f,
+    #060811,
+    #060814,
+    #050816,
+    #050818,
     #05081a
   );
 }
@@ -23,6 +23,11 @@
   margin: 0 auto;
   width: 90%;
   gap: 60px;
+  justify-content: center;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch; /* suporte para iOS */
+  cursor: grab;
+  scroll-behavior: smooth;
 }
 .companies::-webkit-scrollbar {
   display: none; /* remove a barra de scroll no Chrome, Safari e Opera */
