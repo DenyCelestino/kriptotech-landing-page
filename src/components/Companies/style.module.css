@@ -3,11 +3,18 @@
   padding: 10px;
   background-image: linear-gradient(
     to right,
-    #000000,
-    #0c0408,
-    #110913,
-    #120e1b,
-    #0e1423
+    #05081a,
+    #060a1d,
+    #070c20,
+    #070d23,
+    #070f26,
+    #070f26,
+    #070f26,
+    #070f26,
+    #070d23,
+    #070c20,
+    #060a1d,
+    #05081a
   );
 }
 .companies {
@@ -16,11 +23,6 @@
   margin: 0 auto;
   width: 90%;
   gap: 60px;
-  justify-content: center;
-  overflow-x: scroll;
-  -webkit-overflow-scrolling: touch; /* suporte para iOS */
-  cursor: grab;
-  scroll-behavior: smooth;
 }
 .companies::-webkit-scrollbar {
   display: none; /* remove a barra de scroll no Chrome, Safari e Opera */
@@ -58,7 +60,7 @@ img:hover + h4 {
     justify-content: center;
   }
   .companies img {
-    height: 50px;
+    height: 40px;
     width: 90px;
   }
 }
