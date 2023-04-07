@@ -57,21 +57,21 @@ const Header = () => {
           </li>
         </ul>
         <div className={styles.button_container}>
-          <button title="Criar a conta">Criar conta</button>
-          <button title="Entrar">Iniciar sessão</button>
+          <button>Pedir Orçamento</button>
+          <button>Contactar</button>
         </div>
       </div>
       {mobileNav ? (
         <IoCloseSharp
           className={styles.mobileCloseButtons}
           onClick={MobileNav}
-          size={40}
+          size={30}
         />
       ) : (
         <BiMenuAltRight
           className={styles.mobileCloseButtons}
           onClick={MobileNav}
-          size={40}
+          size={30}
         />
       )}
       {/* mobile nav */}
@@ -80,8 +80,8 @@ const Header = () => {
           <div className={styles.wrapper_mobile}>
             <ul className={styles.link_container_mobile}>
               <div className={styles.button_container}>
-                <button title="Criar a conta">Criar conta</button>
-                <button title="Entrar">Iniciar sessão</button>
+                <button>Pedir Orçamento</button>
+                <button>Contactar</button>
               </div>
               <li>
                 <Link>Pagina Inicial</Link>

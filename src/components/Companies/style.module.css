@@ -8,7 +8,7 @@
   margin: 0 auto;
   width: 90%;
   gap: 60px;
-
+  justify-content: center;
   overflow-x: scroll;
   -webkit-overflow-scrolling: touch; /* suporte para iOS */
   cursor: grab;

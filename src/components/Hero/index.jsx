@@ -5,8 +5,7 @@ import {
   AiFillInstagram,
   AiFillLinkedin
 } from 'react-icons/ai'
-
-import Fade from 'react-reveal'
+import ParticlesBg from 'particles-bg'
 
 const Hero = () => {
   const [isScrolled, setScrolled] = useState(false)
@@ -26,37 +25,34 @@ const Hero = () => {
 
   return (
     <div className={styles.container}>
-      <Fade top cascade>
-        <div className={styles.wrapper}>
-          <h1>
-            Transformando a sociedade <br />
-            por meio da tecnologia{' '}
-          </h1>
-          <span>
-            Nossos softwares são projetados para tornar o mundo um
-            lugar melhor <br />e mais sustentável para todos por
-            intermedio da tecnologia.
-          </span>
-          <div className={styles.subscribe_container}>
-            <input
-              placeholder="Digite seu email"
-              className={styles.email_subscribe}
-            />
-            <button>Subcrever</button>
-          </div>
-        </div>
-        <div
-          style={{ display: isScrolled && 'none' }}
-          className={styles.social_network_media}
-        >
-          <AiFillFacebook className={styles.medias_icons} size={20} />
-          <AiFillInstagram
-            className={styles.medias_icons}
-            size={20}
+      {/* <ParticlesBg type="color" bg={true} /> */}
+
+      <div data-aos="fade-up-right" className={styles.wrapper}>
+        <h1>
+          Transformando a sociedade <br />
+          por meio da tecnologia{' '}
+        </h1>
+        <span>
+          Nossos softwares são projetados para tornar o mundo um lugar
+          melhor <br />e mais sustentável para todos por intermedio da
+          tecnologia.
+        </span>
+        <div className={styles.subscribe_container}>
+          <input
+            placeholder="Digite seu email"
+            className={styles.email_subscribe}
           />
-          <AiFillLinkedin className={styles.medias_icons} size={20} />
+          <button>Subcrever</button>
         </div>
-      </Fade>
+      </div>
+      <div
+        style={{ display: isScrolled && 'none' }}
+        className={styles.social_network_media}
+      >
+        <AiFillFacebook className={styles.medias_icons} size={20} />
+        <AiFillInstagram className={styles.medias_icons} size={20} />
+        <AiFillLinkedin className={styles.medias_icons} size={20} />
+      </div>
     </div>
   )
 }

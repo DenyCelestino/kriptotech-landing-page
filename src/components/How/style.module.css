@@ -1,0 +1,149 @@
+.container {
+  display: flex;
+  height: 120vh;
+  background-image: linear-gradient(
+    to left top,
+    #0f0209,
+    #10040e,
+    #100612,
+    #0f0816,
+    #0d0b19,
+    #080c19,
+    #040d19,
+    #000e18,
+    #000c13,
+    #00090e,
+    #000607,
+    #000202
+  );
+}
+
+.wrapper {
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  gap: 100px;
+}
+.features {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 100%;
+  gap: 30px;
+}
+
+.how_slogan {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  text-align: center;
+  gap: 20px;
+}
+.how_slogan p {
+  color: var(--secondary);
+}
+
+.tags_left,
+.tags_right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.tags {
+  display: flex;
+  align-items: center;
+  /* background: red; */
+  border-bottom: 1px solid var(--line);
+  width: 500px;
+  padding: 10px;
+}
+.tags p {
+  color: var(--secondary);
+}
+.tags img {
+  height: 100px;
+  /* width: 100px; */
+}
+.tags_info {
+  display: flex;
+  flex-direction: column;
+}
+.image_middle {
+  height: 600px;
+  width: 300px;
+}
+.image_middle img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 1280px) {
+  .wrapper {
+    width: 95%;
+    font-size: 14px;
+    padding: 15px;
+  }
+  .how_slogan {
+    margin-top: 20px;
+  }
+  .features {
+    gap: 20px;
+  }
+  .tags {
+    width: 380px;
+    padding: 10px;
+  }
+
+  .tags img {
+    height: 80px;
+  }
+  .tags_info {
+    display: flex;
+    flex-direction: column;
+  }
+  .image_middle {
+    height: 500px;
+    width: 250px;
+  }
+  .image_middle img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    font-size: 12px;
+  }
+
+  .features {
+    flex-direction: column;
+  }
+
+  .tags {
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .tags_info {
+    display: flex;
+    flex-direction: column;
+  }
+  .image_middle {
+    height: 300px;
+    width: 250px;
+  }
+  .image_middle img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+}

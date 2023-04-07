@@ -38,30 +38,6 @@ const Companies = () => {
             <img src={rocketseat} />
             <h4>Rocketseat</h4>
           </div>
-          <div className={styles.companie_container}>
-            <img src={rocketseat} />
-            <h4>Rocketseat</h4>
-          </div>
-          <div className={styles.companie_container}>
-            <img src={rocketseat} />
-            <h4>Rocketseat</h4>
-          </div>
-          <div className={styles.companie_container}>
-            <img src={rocketseat} />
-            <h4>Rocketseat</h4>
-          </div>
-          <div className={styles.companie_container}>
-            <img src={rocketseat} />
-            <h4>Rocketseat</h4>
-          </div>
-          <div className={styles.companie_container}>
-            <img src={rocketseat} />
-            <h4>Rocketseat</h4>
-          </div>
-          <div className={styles.companie_container}>
-            <img src={rocketseat} />
-            <h4>Rocketseat</h4>
-          </div>
         </Zoom>
 
         {/* <img src={Minutax} /> */}
