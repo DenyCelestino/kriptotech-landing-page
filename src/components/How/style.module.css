@@ -120,6 +120,21 @@
 @media only screen and (max-width: 768px) {
   .container {
     height: 100%;
+    background-image: linear-gradient(
+      to right bottom,
+      #0f0209,
+      #10040e,
+      #100612,
+      #0f0816,
+      #0d0b19,
+      #0d0e1b,
+      #0c101e,
+      #0b1220,
+      #0d1422,
+      #0e1525,
+      #0f1727,
+      #10182a
+    );
   }
   .wrapper {
     font-size: 12px;
