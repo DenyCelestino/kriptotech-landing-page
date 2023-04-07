@@ -101,7 +101,7 @@
 
 @media only screen and (max-width: 1280px) {
   .container {
-    height: 90vh;
+    /* height: 90vh; */
   }
   .wrapper {
     width: 95%;
@@ -148,6 +148,10 @@
       #070b18
     );
   }
+
+  .image_middle button {
+    padding: 10px;
+  }
   .wrapper {
     font-size: 12px;
   }
@@ -168,7 +172,7 @@
     flex-direction: column;
   }
   .image_middle {
-    height: 300px;
+    height: 600px;
     width: 250px;
   }
   .image_middle img {
