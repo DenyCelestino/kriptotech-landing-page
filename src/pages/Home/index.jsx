@@ -10,7 +10,7 @@ const Home = () => {
     <div className={styles.container}>
       <Header />
       <Hero />
-      <Companies />
+      {/* <Companies /> */}
       <How />
       <About />
     </div>
