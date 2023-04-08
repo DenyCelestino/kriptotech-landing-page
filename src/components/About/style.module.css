@@ -44,7 +44,11 @@
   text-align: justify;
   gap: 20px;
 }
-
+@media only screen and (max-width: 1366px) {
+  .container {
+    font-size: 12px;
+  }
+}
 @media only screen and (max-width: 768px) {
   .container {
     height: 90vh;

@@ -39,7 +39,7 @@ const projects = [
   {
     name: 'MINUTAX',
     description:
-      'Com nosso site, preencher minutas de instituições nunca foi tão fácil! Nossa interface de usuário intuitiva e nosso formulário simples tornam todo o processo rápido e fácil. Com apenas alguns cliques, você pode preencher minutas importantes e ter a tranquilidade de saber que seus documentos estão completos e precisos.Nossa plataforma é projetada para simplificar o processo de criação de minutas.',
+      'Com nosso site, preencher minutas de instituições nunca foi tão fácil! Nossa interface de usuário intuitiva e nosso formulário simples tornam todo o processo rápido e fácil.',
     googleplay:
       'https://play.google.com/store/apps/details?id=com.bantucplus.smartshop',
     web: 'https://minutax.fun',

@@ -108,9 +108,14 @@
   display: none;
 }
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (max-width: 1928px) {
   .container {
     font-size: 12px;
+  }
+  .wrapper {
+    display: flex;
+    align-items: center;
+    width: 70%;
   }
 }
 @media only screen and (max-width: 768px) {

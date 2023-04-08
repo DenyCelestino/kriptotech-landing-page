@@ -50,6 +50,12 @@
 .image_ornamentation img {
   height: 200px;
 }
+
+@media only screen and (max-width: 1366px) {
+  .container {
+    font-size: 12px;
+  }
+}
 @media only screen and (max-width: 768px) {
   .container {
     font-size: 12px;
