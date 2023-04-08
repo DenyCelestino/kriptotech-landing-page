@@ -37,6 +37,7 @@ const Header = () => {
     >
       <div className={styles.logo_container}>
         <img
+          onClick={() => scrollToSection('hero')}
           alt="Logotipo da kriptotech"
           className={styles.logo}
           src={Logo}
@@ -61,7 +62,9 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link>Fale conosco</Link>
+            <Link onClick={() => scrollToSection('contact')}>
+              Fale conosco
+            </Link>
           </li>
         </ul>
         <div className={styles.button_container}>
@@ -119,7 +122,13 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <Link>Fale conosco</Link>
+                <Link
+                  onClick={() =>
+                    scrollToSection('contact', setMobileNav(false))
+                  }
+                >
+                  Fale conosco
+                </Link>
               </li>
             </ul>
           </div>

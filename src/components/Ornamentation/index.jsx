@@ -17,9 +17,8 @@ const Ornamentation = () => {
             preço acessível e 20% de desconto para o seu primeiro
             pedido. Entendemos que cada projeto é único e estamos
             comprometidos em fornecer soluções personalizadas que
-            atendam às suas necessidades e expectativas. Entre em
-            contato conosco hoje mesmo e descubra como podemos
-            ajudá-lo a concretizar sua ideia!
+            atendam às suas necessidades e expectativas. Peça um um
+            orçamento hoje mesmo e veja sua ideia sendo concretizada!
           </p>
           <button className={styles.pulse_btn}>
             Pedir Orçamento
