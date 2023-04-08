@@ -45,7 +45,7 @@
   cursor: pointer;
 }
 .button_container button:nth-child(1) {
-  background-image: linear-gradient(to right, black, var(--primary));
+  background-image: linear-gradient(to right, #ff0000, #0000ff);
   color: white;
   font-weight: bold;
   border-radius: 10px;

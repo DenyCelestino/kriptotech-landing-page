@@ -5,14 +5,11 @@ import Img from '../../assets/ornamentation.png'
 const Ornamentation = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.wrapper}>
-        <div
-          data-aos="fade-down"
-          className={styles.image_ornamentation}
-        >
+      <div data-aos="fade-up" className={styles.wrapper}>
+        <div className={styles.image_ornamentation}>
           <img src={Img} />
         </div>
-        <div data-aos="fade-up" className={styles.ornamentation}>
+        <div className={styles.ornamentation}>
           <h1>Quanto pagar por um projecto?</h1>
           <p>
             Na nossa empresa, oferecemos a possibilidade de solicitar

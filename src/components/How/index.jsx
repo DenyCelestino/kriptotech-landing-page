@@ -12,7 +12,7 @@ import satisfytag from '../../assets/satisfytag.png'
 
 const How = () => {
   return (
-    <div className={styles.container}>
+    <div id="how" className={styles.container}>
       <div className={styles.wrapper}>
         <div data-aos="fade-down" className={styles.how_slogan}>
           <h1 className={styles.how_work}>Como funcionamos ?</h1>

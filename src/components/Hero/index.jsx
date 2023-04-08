@@ -23,7 +23,7 @@ const Hero = () => {
   }, [])
 
   return (
-    <div className={styles.container}>
+    <div id="hero" className={styles.container}>
       <div data-aos="fade-right" className={styles.wrapper}>
         <h1>
           Transformando a sociedade <br />

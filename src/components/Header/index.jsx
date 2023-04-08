@@ -9,6 +9,11 @@ const Header = () => {
   const [isScrolled, setScrolled] = useState(false)
   const [mobileNav, setMobileNav] = useState(false)
 
+  const scrollToSection = sectionId => {
+    const section = document.getElementById(sectionId)
+    section.scrollIntoView({ behavior: 'smooth' })
+  }
+
   function MobileNav() {
     setMobileNav(!mobileNav)
   }
@@ -41,19 +46,22 @@ const Header = () => {
       <div className={styles.wrapper}>
         <ul className={styles.link_container}>
           <li>
-            <Link>Pagina Inicial</Link>
+            <Link onClick={() => scrollToSection('hero')}>
+              Pagina Inicial
+            </Link>
           </li>
           <li>
-            <Link>Sobre nós</Link>
+            <Link onClick={() => scrollToSection('about')}>
+              Sobre nós
+            </Link>
           </li>
           <li>
-            <Link>Missão</Link>
+            <Link onClick={() => scrollToSection('how')}>
+              Como funcionamos
+            </Link>
           </li>
           <li>
-            <Link>Visão</Link>
-          </li>
-          <li>
-            <Link>Contacto</Link>
+            <Link>Fale conosco</Link>
           </li>
         </ul>
         <div className={styles.button_container}>
@@ -84,19 +92,34 @@ const Header = () => {
                 <button>Contactar</button>
               </div>
               <li>
-                <Link>Pagina Inicial</Link>
+                <Link
+                  onClick={() =>
+                    scrollToSection('hero', setMobileNav(false))
+                  }
+                >
+                  Pagina Inicial
+                </Link>
               </li>
               <li>
-                <Link>Sobre nós</Link>
+                <Link
+                  onClick={() =>
+                    scrollToSection('about', setMobileNav(false))
+                  }
+                >
+                  Sobre nós
+                </Link>
               </li>
               <li>
-                <Link>Missão</Link>
+                <Link
+                  onClick={() =>
+                    scrollToSection('how', setMobileNav(false))
+                  }
+                >
+                  Como funcionamos
+                </Link>
               </li>
               <li>
-                <Link>Visão</Link>
-              </li>
-              <li>
-                <Link>Contacto</Link>
+                <Link>Fale conosco</Link>
               </li>
             </ul>
           </div>
