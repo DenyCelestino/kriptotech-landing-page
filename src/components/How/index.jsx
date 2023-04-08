@@ -73,7 +73,7 @@ const How = () => {
 
           {/* image middle */}
           <div className={styles.image_middle}>
-            <button>Começar</button>
+            {/* <button>Começar</button> */}
             <img data-aos="flip-left" src={appexample} />
           </div>
 
