@@ -15,6 +15,9 @@
 }
 .boxe {
   width: 250px;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 10px;
+  border-radius: 8px;
 }
 
 @media only screen and (max-width: 768px) {
