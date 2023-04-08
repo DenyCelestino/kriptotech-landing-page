@@ -8,6 +8,7 @@ import About from '../../components/About'
 import Counter from '../../components/Counter'
 import Ornamentation from '../../components/Ornamentation'
 import Contact from '../../components/Contact'
+import Services from '../../components/Services'
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <How />
       <About />
       <Counter />
+      <Services />
       <Ornamentation />
       <Contact />
     </div>

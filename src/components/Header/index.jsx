@@ -61,6 +61,9 @@ const Header = () => {
               Como funcionamos
             </Link>
           </li>
+          <Link onClick={() => scrollToSection('services')}>
+            Serviços
+          </Link>
           <li>
             <Link onClick={() => scrollToSection('contact')}>
               Fale conosco
@@ -119,6 +122,15 @@ const Header = () => {
                   }
                 >
                   Como funcionamos
+                </Link>
+              </li>
+              <li>
+                <Link
+                  onClick={() =>
+                    scrollToSection('services', setMobileNav(false))
+                  }
+                >
+                  Serviços
                 </Link>
               </li>
               <li>

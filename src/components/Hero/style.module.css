@@ -131,14 +131,7 @@
     align-items: center;
     position: absolute;
     bottom: 80px;
-    background-image: linear-gradient(
-      to bottom,
-      rgb(20, 23, 25, 0.4),
-      rgb(20, 23, 25, 0.8),
-      #0c0f11,
-      #0c0f11,
-      #010305
-    );
+    background: black;
     width: 100%;
     padding: 20px;
     justify-content: flex-end;
