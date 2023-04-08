@@ -4,7 +4,7 @@ import Img from '../../assets/ornamentation.png'
 
 const Contact = () => {
   return (
-    <div id="contact" data-aos="fade-up" className={styles.container}>
+    <div id="contact" className={styles.container}>
       <div className={styles.wrapper}>
         <div className={styles.inputs_container}>
           <div className={styles.top_inputs_container}>

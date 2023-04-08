@@ -11,8 +11,9 @@
   width: 90%;
   gap: 40px;
   text-align: center;
+  margin-top: 50px;
 }
-.services {
+.projects {
   display: flex;
   align-items: center;
   justify-content: center;

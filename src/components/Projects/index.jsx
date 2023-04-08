@@ -77,7 +77,7 @@ const Projects = () => {
           suas necessidades específicas. Entre em contato conosco hoje
           mesmo para saber mais..
         </p>
-        <div className={styles.services}>
+        <div className={styles.projects}>
           {projects.map((item, index) => (
             <div
               key={index}
