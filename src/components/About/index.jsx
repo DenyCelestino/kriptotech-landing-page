@@ -14,7 +14,7 @@ const About = () => {
 
         <div data-aos="fade-down" className={styles.about_container}>
           <h1>SOBRE NÓS</h1>
-          <div>
+          <p>
             A Kriptotech é uma empresa derivada da Bantuc plus
             especializada em desenvolver softwares personalizados para
             ajudar empresas a aumentar sua produtividade e eficiência.
@@ -33,7 +33,7 @@ const About = () => {
             atividades. Se você está procurando soluções inovadoras
             para melhorar a produtividade de sua empresa, conte
             conosco.
-          </div>
+          </p>
         </div>
       </div>
     </div>

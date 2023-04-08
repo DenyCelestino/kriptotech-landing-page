@@ -114,6 +114,12 @@
 .mobileCloseButtons {
   display: none;
 }
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    font-size: 12px;
+  }
+}
 @media only screen and (max-width: 768px) {
   .logo_container {
     height: 50px;

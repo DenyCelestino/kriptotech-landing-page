@@ -14,7 +14,9 @@
 body {
   background: var(--backgound);
 }
-
+p {
+  color: var(--secondary);
+}
 :root {
   --primary: #5437dc;
   --secondary: #87898f;
