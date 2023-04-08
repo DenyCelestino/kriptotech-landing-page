@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  height: 30vh;
+  position: relative;
+  padding: 20px;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 90%;
+  justify-content: space-around;
+  padding: 20px;
+}
+.boxe {
+  width: 250px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    height: 80vh;
+    position: relative;
+    padding: 20px;
+  }
+  .wrapper {
+    flex-direction: column;
+    font-size: 12px;
+    padding: 10px;
+    gap: 20px;
+  }
+  .boxe {
+    width: 100%;
+  }
+} ;

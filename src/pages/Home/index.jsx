@@ -5,6 +5,7 @@ import Header from '../../components/Header'
 import Companies from '../../components/Companies'
 import How from '../../components/How'
 import About from '../../components/About'
+import Counter from '../../components/Counter'
 const Home = () => {
   return (
     <div className={styles.container}>
@@ -13,6 +14,7 @@ const Home = () => {
       {/* <Companies /> */}
       <How />
       <About />
+      <Counter />
     </div>
   )
 }
