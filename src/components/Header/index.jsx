@@ -76,8 +76,8 @@ const Header = () => {
           </li>
         </ul>
         <div className={styles.button_container}>
-          <button>Pedir Orçamento</button>
-          <button>Contactar</button>
+          <a>Pedir Orçamento</a>
+          <a href="tel:+258866460507">Contactar</a>
         </div>
       </div>
       {mobileNav ? (
@@ -99,8 +99,8 @@ const Header = () => {
           <div className={styles.wrapper_mobile}>
             <ul className={styles.link_container_mobile}>
               <div className={styles.button_container}>
-                <button>Pedir Orçamento</button>
-                <button>Contactar</button>
+                <a>Pedir Orçamento</a>
+                <a href="tel:+258866460507">Contactar</a>
               </div>
               <li>
                 <Link
