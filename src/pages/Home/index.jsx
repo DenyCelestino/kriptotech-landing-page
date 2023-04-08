@@ -7,6 +7,7 @@ import How from '../../components/How'
 import About from '../../components/About'
 import Counter from '../../components/Counter'
 import Ornamentation from '../../components/Ornamentation'
+import Contact from '../../components/Contact'
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <About />
       <Counter />
       <Ornamentation />
+      <Contact />
     </div>
   )
 }
