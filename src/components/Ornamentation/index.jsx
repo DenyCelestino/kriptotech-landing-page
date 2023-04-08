@@ -10,7 +10,7 @@ const Ornamentation = () => {
           <img src={Img} />
         </div>
         <div className={styles.ornamentation}>
-          <h1>Quanto pagar por um projecto?</h1>
+          <h1>Quanto pagar por um serviço?</h1>
           <p>
             Na nossa empresa, oferecemos a possibilidade de solicitar
             um orçamento personalizado para o seu projeto, com um

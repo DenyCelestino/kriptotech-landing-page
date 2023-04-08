@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  height: 100vh;
+  height: 100%;
 }
 .wrapper {
   display: flex;
@@ -9,20 +9,21 @@
   align-items: center;
   margin: 0 auto;
   width: 90%;
-  padding: 50px 20px;
   gap: 40px;
   text-align: center;
 }
 .services {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
-
   gap: 20px;
+  padding: 10px;
 }
 .box {
   display: flex;
   flex-direction: column;
+  position: relative;
   width: 350px;
   height: 450px;
   background: #050c18;
@@ -32,18 +33,26 @@
   text-align: justify;
   cursor: pointer;
 }
+.social_media {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  top: 20px;
+}
 .box:hover {
   background: #0a1932;
 }
 
 .box img {
   height: 150px;
-  object-fit: contain;
+  object-fit: cover;
+  margin-top: 40px;
 }
 @media only screen and (max-width: 768px) {
   .container {
     display: flex;
-    height: 250vh;
+    height: 380vh;
     font-size: 12px;
   }
 

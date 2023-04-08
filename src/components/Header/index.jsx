@@ -69,6 +69,11 @@ const Header = () => {
               Fale conosco
             </Link>
           </li>
+          <li>
+            <Link onClick={() => scrollToSection('projects')}>
+              Projectos
+            </Link>
+          </li>
         </ul>
         <div className={styles.button_container}>
           <button>Pedir Orçamento</button>
@@ -140,6 +145,15 @@ const Header = () => {
                   }
                 >
                   Fale conosco
+                </Link>
+              </li>
+              <li>
+                <Link
+                  onClick={() =>
+                    scrollToSection('projects', setMobileNav(false))
+                  }
+                >
+                  Projectos
                 </Link>
               </li>
             </ul>
