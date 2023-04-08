@@ -45,8 +45,31 @@
   cursor: pointer;
 }
 .button_container button:nth-child(1) {
-  background: transparent;
-  border: 1px solid var(--primary);
+  background-image: linear-gradient(to right, black, var(--primary));
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  animation: pulse 2s ease-in-out infinite;
+  animation-duration: 2s;
+  background-size: 200% auto;
+  animation-delay: 0.5s;
+  cursor: pointer;
+}
+
+@keyframes pulse {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+.button_container button:nth-child(1):hover {
+  background: var(--primary);
+  border: 1px solid white;
 }
 .button_container button:nth-child(1):hover {
   background: var(--primary);

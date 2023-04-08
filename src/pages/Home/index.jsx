@@ -6,6 +6,8 @@ import Companies from '../../components/Companies'
 import How from '../../components/How'
 import About from '../../components/About'
 import Counter from '../../components/Counter'
+import Ornamentation from '../../components/Ornamentation'
+
 const Home = () => {
   return (
     <div className={styles.container}>
@@ -15,6 +17,7 @@ const Home = () => {
       <How />
       <About />
       <Counter />
+      <Ornamentation />
     </div>
   )
 }
