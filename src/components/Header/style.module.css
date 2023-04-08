@@ -54,6 +54,7 @@
   background-size: 200% auto;
   animation-delay: 0.5s;
   cursor: pointer;
+  border-radius: 2px;
 }
 
 @keyframes pulse {
